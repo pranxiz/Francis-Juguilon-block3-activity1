@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A2C2C"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/pindot"
+        android:layout_width="202dp"
+        android:layout_height="79dp"
+        android:fontFamily="@font/aldrich"
+        android:text="START"
+        android:textColor="#3A2C2C"
+        android:textColorHighlight="#681717"
+        android:textColorHint="#981515"
+        android:textColorLink="#3D1643"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C5CF63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.355"
+        app:strokeColor="#811A1A" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="@font/aldrich"
+        android:text="2024 Planner"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#C5CF63"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
