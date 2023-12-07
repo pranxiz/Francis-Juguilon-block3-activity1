@@ -33,13 +33,14 @@
         android:layout_height="209dp"
         android:layout_marginTop="164dp"
         android:fontFamily="@font/aldrich"
-        android:text="2024 Planner"
+        android:text="BUCKET LIST"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#C5CF63"
         android:textSize="70sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
