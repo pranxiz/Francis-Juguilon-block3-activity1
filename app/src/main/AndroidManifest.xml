@@ -13,10 +13,10 @@
         android:theme="@style/Theme.FrancisJuguilonBlock1Quiz"
         tools:targetApi="31">
         <activity
-            android:name=".January"
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".January"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

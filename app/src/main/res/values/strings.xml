@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FrancisJuguilon-Block1-Quiz</string>
+    <string name="New">Example</string>
+    <string name="write_text">Example\n</string>
 </resources>
